@@ -1,0 +1,8 @@
+16:47:43 - ERROR: the ETag number for the file '102379.md5' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'TF-Prioritizer-master.zip' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'cancer_atacSeq_config.json' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'cancer_chipSeq_config.json' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'cancer_dnaseSeq_config.json' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'mouse_chipSeq_config.json' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - ERROR: the ETag number for the file 'readme_102379.txt' does not match. The local version of this file does not match its remote version on Amazon S3.
+16:47:44 - FILE PROCESSING FINISHED! 0 processed.
