@@ -7,3 +7,5 @@ s3md5/
 aws*
 # dir for storing dataset files
 data/
+rclone.conf
+*.log
