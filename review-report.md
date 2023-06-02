@@ -25,3 +25,4 @@
 1. The script `aws_check_integrity.sh` contains 4 errors, 14 warnings after [shellcheck](https://www.shellcheck.net/), which need to be addressed by author.
 2. The paper has mentioned its limitation on multipart datasets, but should have also documented in its [repo](https://github.com/SoniaRuiz/aws-s3-integrity-check/) and also in the help message of the script.
 3. The script `aws_check_integrity.sh` has typo which need to be addressed by author.
+4. To implement tests on the script itself, eg. using the [bats-core](https://github.com/bats-core/bats-core).
