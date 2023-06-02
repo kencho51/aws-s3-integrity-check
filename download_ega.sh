@@ -11,6 +11,6 @@ do
     --transfers 4 \
     --no-traverse \
     ega:"${i}" \
-    data/ukbec-unaligned-fastq
-    echo "****************Download ${i} completed******************"
+    data/"${i}"
+    echo "****************Download ${i}completed**************"
 done < ukbec-unaligned.txt
