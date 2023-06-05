@@ -1,0 +1,23 @@
+02:08:58 - CORRECT: A653_945_CEL_R1.fastq.gz - file_size: 4.8G - Local ETag: 5fbf97e9b69a0a427bf2b5c8bd84fabc-611
+02:10:49 - CORRECT: A653_945_CEL_R2.fastq.gz - file_size: 4.9G - Local ETag: 3a26fe2bfd4f6a64921dff28ebc033e1-618
+02:13:50 - CORRECT: A653_950_R1_CEL.fastq.gz - file_size: 6.3G - Local ETag: 40c2a3020e65bb4f2122cca1d1f3b555-800
+02:16:55 - CORRECT: A653_950_R2_CEL.fastq.gz - file_size: 6.4G - Local ETag: 68e09a60356a5750748b790e8bcb3296-815
+02:16:55 - CORRECT: SampleSheet.csv - file_size: 157 - Local ETag: d9bb56c7f27b17b87437d497d00d6828
+02:19:53 - CORRECT: A653_954_CEL_R1.fastq.gz - file_size: 6.5G - Local ETag: a62e85d741ed3d66131bcd1d702f6e4c-824
+02:23:04 - CORRECT: A653_954_CEL_R2.fastq.gz - file_size: 6.7G - Local ETag: 802d9b8581a1c31a2b62a991a9412010-854
+02:25:25 - CORRECT: A653_964_CEL_R1.fastq.gz - file_size: 5.4G - Local ETag: 12f9a774a694b679be0fe211619ed32a-683
+02:27:47 - CORRECT: A653_964_CEL_R2.fastq.gz - file_size: 5.6G - Local ETag: 859d2b295a3edc1aa15700670e0dd522-709
+02:30:51 - CORRECT: A653_965_R1_CEL.fastq.gz - file_size: 6.1G - Local ETag: 90e59014961447b30d11f0c97f6882a2-769
+02:33:22 - CORRECT: A653_965_R2_CEL.fastq.gz - file_size: 6.0G - Local ETag: 195a2016b8495c45c467161169919b89-760
+02:33:22 - CORRECT: SampleSheet.csv - file_size: 149 - Local ETag: 4b63b49c68b4b2239a1a71026602d753
+02:36:50 - CORRECT: A653_974_CEL_R1.fastq.gz - file_size: 7.1G - Local ETag: baafff927d5bf5a6ea4d5806b0b097a6-905
+02:40:53 - CORRECT: A653_974_CEL_R2.fastq.gz - file_size: 7.2G - Local ETag: f30636c5394f02d901d4be7f45e56d2e-913
+02:44:03 - CORRECT: A653_985_R1_CEL.fastq.gz - file_size: 6.1G - Local ETag: 97dbf22e5fad9d968e87076630667825-771
+02:46:55 - CORRECT: A653_985_R2_CEL.fastq.gz - file_size: 6.0G - Local ETag: 158defec94d9a885d665fa0731b7e224-766
+02:46:55 - CORRECT: SampleSheet.csv - file_size: 149 - Local ETag: 595c06c2f03132d0ff993aef0fc338d4
+02:50:43 - CORRECT: A653_993_CEL_R1.fastq.gz - file_size: 7.1G - Local ETag: 7fe89197ebc58790cd98ab611b1ef3d7-898
+02:54:25 - CORRECT: A653_993_CEL_R2.fastq.gz - file_size: 7.2G - Local ETag: 34b5b03adb1815e489453a8c4ff68442-914
+02:58:38 - CORRECT: A653_996_CEL_R1.fastq.gz - file_size: 6.9G - Local ETag: 3df2e0405dcf396947f1cb9c57e6dacd-881
+03:03:13 - CORRECT: A653_996_CEL_R2.fastq.gz - file_size: 7.1G - Local ETag: b15ee77fea4241e3cebac62b4b5beb1e-904
+03:03:13 - CORRECT: md5sum.txt - file_size: 41K - Local ETag: 1eee0860a62c2fdc76af23eac33a2cab
+03:03:13 - FILE PROCESSING FINISHED! 113G processed.
