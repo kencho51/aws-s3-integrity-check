@@ -10,15 +10,15 @@
 3. The paper has mentioned its limitation on multipart uploaded datasets, and set the boundary of the tool's use case.
 
 ### Test results
-| dataset                        | cmd                                                                                                                                                                                                                                  | source bucket                     | source size | processing time |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-------------|-----------------|
-| 102379                         | time docker run -v "$PWD/data/102379:/data/102379" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102379 -b testing-tf-prioritizer                                     | tf-prioritizer                    | 3.7MB       | 4.154s          |
-| 102374                         | time docker run -v "$PWD/data/102374:/data/102374" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102374 -b testing-mass-spectrometry-imaging                          | testing-mass-spectrometry-imaging | 16GB        | 6m34s           |
-| ukbec-unaligned-fastq(sub set) | time docker run -v "$PWD/data/ukbec-unaligned-fastq:/data/ukbec-unaligned-fastq" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102374 -b ukbec-unaligned-fastq -p ega | ukbec-unaligned-fastq             | 113GB       | 56m20.63s       |
+| dataset                   | cmd                                                                                                                                                                                                                                  | source bucket                     | source size | processing time |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-------------|-----------------|
+| 102379                    | time docker run -v "$PWD/data/102379:/data/102379" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102379 -b testing-tf-prioritizer                                     | tf-prioritizer                    | 3.7MB       | 4.154s          |
+| 102374                    | time docker run -v "$PWD/data/102374:/data/102374" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102374 -b testing-mass-spectrometry-imaging                          | testing-mass-spectrometry-imaging | 16GB        | 6m34s           |
+| EGAS00001003065 (sub set) | time docker run -v "$PWD/data/ukbec-unaligned-fastq:/data/ukbec-unaligned-fastq" -v "$PWD/logs/:/usr/src/logs" -v "$HOME/.aws:/root/.aws:ro" soniaruiz/aws-s3-integrity-check:latest -l /data/102374 -b ukbec-unaligned-fastq -p ega | ukbec-unaligned-fastq             | 113GB       | 56m20.63s       |
 
 ### Problems
-1. The script `aws_check_integrity.sh` can only be executed in Linux OS, which is contradict to `Testing was conducted from multiple operating systems.` mentioned in paper.
-2. The script's processing time is longer than  
+1. The script `aws_check_integrity.sh` can only be executed in Linux OS, which is contradicted to `Testing was conducted from multiple operating systems.` mentioned in paper.
+2. The script's processing time is much longer than indicated in paper. But the extra time may be due to the location of the bucket region and network speed, so it is not a big concern for the tool's reproducibility.
 
 
 ### Suggestions
@@ -26,3 +26,4 @@
 2. The paper has mentioned its limitation on multipart datasets, but should have also documented in its [repo](https://github.com/SoniaRuiz/aws-s3-integrity-check/) and also in the help message of the script.
 3. The script `aws_check_integrity.sh` has typo which need to be addressed by author.
 4. To implement tests on the script itself, eg. using the [bats-core](https://github.com/bats-core/bats-core).
+5. To remove OS dependency, may be focusing on implementing the tool in Docker and document its details usage in paper and also in [repo](https://github.com/SoniaRuiz/aws-s3-integrity-check/).
